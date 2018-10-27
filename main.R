@@ -118,4 +118,5 @@ for (i in 1:nrow(main_items)) {
   b <- temp[[1]]
   complete_date <- rbind(complete_date, b)
 }
-z
+
+save(complete_date, file = "data.xlsx")
