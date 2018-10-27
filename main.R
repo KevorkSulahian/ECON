@@ -46,7 +46,7 @@ for(i in 1:length(sub_num)){
 
 arm_names <- colnames(subs)
 colnames(subs) = c("items", "id", "date", "time-frame", "export_tones", "export_1000$", "import_tones", "import_1000$")
-arise_at(c("export_tones", "export_1000$", "import_tones", "import_1000$"), sum)
+# arise_at(c("export_tones", "export_1000$", "import_tones", "import_1000$"), sum)
 
 # no date
 
